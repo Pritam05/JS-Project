@@ -1,2 +1,4 @@
 import numpy as np
-for i in list(range(1,100))
+for i in list(range(1,100)):
+    print(i)
+     
