@@ -15,6 +15,8 @@
 <button onclick="ft()">Press Me</button>
 
 <script>
+    const redObj = { color: 'red' }
+    const yellowObj = Object.assign({}, redObj, {color: 'yellow'})
     
     function ft()
     {
@@ -22,6 +24,7 @@
         console.log("yea! button clicked!good good");
         document.getElementById("pp").innerHTML=
         "<h3>Modified! Good good!</h3>";
+        a.f(yellowObj);
     }
     const a={
         f(m) {console.log(m);
