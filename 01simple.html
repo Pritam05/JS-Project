@@ -6,14 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css" >
-    <script>
-    function fg()
-    {
-        alert("inside head");
-    }
-    window.onload=fg;
-    // document.onreadystatechange= document.readyState==complete?fg():0;
-    </script>
+   
 </head>
 <body>
     
@@ -23,13 +16,11 @@
 <br>
 <br>
 <button  class="btn btn-primary" type="button" onclick="b('Hello world')">submit</button>
+<br/><br/><br/><br/>
+<b>Addition is</b> <span id="s1" style="color:peachpuff;background-color:green; font-size: xx-large;"></span>
+<br/>
+<b>Subtraction is</b> <span id="s2" style="color:peachpuff;background-color:green; font-size: xx-large;"></span>
 </center>
-<script>
-    const b=(m)=>{
-        alert(m); 
-        document.getElementById("p1").innerText="Yo! para is changed.";
-        //var a=[1,2,3]
-        }
-</script>
+<script src="./external_JS.js"></script>
 </body>
 </html>
